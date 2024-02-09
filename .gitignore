@@ -1,0 +1,23 @@
+# IDE systwm files
+/.idea
+/.vscode
+
+# Python internal
+/venv*
+__pycache__/
+
+# Cython compile output
+/build
+*.c
+*.so
+*.html
+!templates/*.html
+
+# Python egg metadata, regenerated from source files by setuptools.
+/*.egg-info
+
+# local temp files and utils
+/**/*.sh
+/designer
+/*.txt
+/*.ui
